@@ -1,10 +1,10 @@
 <?php
 
-namespace App\model;
+namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 
-class Size extends Model
+class order extends Model
 {
-    
+    //
 }

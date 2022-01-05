@@ -12,7 +12,7 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
-
+Route::get('/mypayment','mypayment_Controller@payment_view_method');
 Route::get('/', 'frontend\frontendController@index') -> name('/');
 Route::get('/about', 'frontend\frontendController@about') -> name('about');
 Route::get('/contact', 'frontend\frontendController@contact') -> name('contact');
